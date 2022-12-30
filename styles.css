@@ -1,0 +1,139 @@
+</style>
+    body {
+        scroll-behavior: smooth;
+    }
+
+    #main {
+        display: flex;
+        padding-left: 25%;
+        background-color: white;
+    }
+
+    a {
+        color: 002D72;
+        text-decoration: none;
+    }
+
+    .content-text {
+        font-size: 150%;
+        line-height: 200%;
+        color: black;
+        width: 60%;
+    }
+
+    /* Navigation bar. */
+    .side-nav {
+        position: fixed;
+        left: 5%;
+        width: 15%;
+        font-size: 150%;
+        font-weight: 200%;
+        padding-top: 10%;
+        padding-right: 10%;
+    }
+
+    .nav-item {
+        margin-left: 24px;
+        margin-bottom: 40px;
+    }
+
+    .nav-item a {
+        text-decoration: none;
+    }
+
+    .content {
+        padding-top: 7%;
+    }
+
+    .section {
+        margin-bottom: 120px;
+    }
+
+    .avatar {
+        margin-bottom: 20px;
+    }
+    
+    
+    .avatar-img {
+        width: 30%;
+        border-radius: 8px;
+        padding-bottom: 2%;
+    }
+
+
+
+    .hi-title {
+        font-size: 60px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .section-title {
+        font-weight: 600;
+        font-size: 40px;
+        margin-bottom: 13px;
+        color: 002D72;
+    }
+
+    .experience-desc {
+        font-size: 100%;
+        opacity: 0.5;
+    }
+
+    .edu-sub {
+        opacity: 0.9;
+        font-size: 85%;
+        color: 4682B4;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .single-pub{
+        margin-bottom: 10%;    
+        
+    }
+
+    .single-edu {
+        display: flex;
+        margin-bottom: 10%;    
+    }
+
+    .edu-logos {
+        width: 28%;
+        height: auto;
+        margin-left: 10%;
+        padding-right: 20%;
+    }
+
+
+    .edu-line-1 {
+        justify-content: space-between;
+    }
+
+    .pub-title {
+        display: flex;
+        font-size: 100%;
+        
+    }
+
+    .pub-desc {
+        width: 120%;
+        display: block;
+    }
+
+    .experience-logos {
+        width: 15%;
+        height: 15%;
+        margin-left: 10%;
+        padding-right: 20%;
+    }
+
+    .edu-title {
+        font-weight: bold;
+    }
+
+    .linkedin-logo {
+        width: 4%;
+        height: auto;
+    }
+
+</style>
