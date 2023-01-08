@@ -62,8 +62,6 @@
         margin-left: 10%;
     }
 
-
-
     .hi-title {
         font-size: 60px;
         font-weight: 600;
@@ -82,32 +80,37 @@
         opacity: 0.5;
     }
 
-    .edu-sub {
-        opacity: 0.9;
-        font-size: 85%;
-        color: 4682B4;
-        font-family: 'Courier New', Courier, monospace;
-    }
-
     .single-pub{
         margin-bottom: 10%;    
         
     }
 
-    .education_uni_title_time {
-        grid-template-columns: 1fr 20%;
-    }
-
-    .education_uni_title_time img{
-        object-fit: cover;
-        width: auto;
-        margin-right: 15%;
-    }
-
-    .pub-title {
-        display: flex;
-        font-size: 100%;
+    .experience_title {
+        max-width: 100%;
         
+    }
+
+    .experience_title img{
+        margin-left: 2%;
+        object-fit: cover;
+        height:10%;
+        width: auto;
+    }
+
+    .edu-sub {
+        opacity: 0.9;
+        font-size: 95%;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .edu-title {
+        font-weight: bold;
+    }
+
+    .edu-subtitle {
+        font-size: 100%;
+        color: #696969;
     }
 
     .pub-desc {
@@ -122,10 +125,6 @@
         padding-right: 20%;
     }
 
-    .edu-title {
-        font-weight: bold;
-    }
-
     .linkedin-logo {
         width: 4%;
         height: auto;
@@ -135,11 +134,11 @@
         max-width: 100%;
         display: flex;
         grid-template-columns:600px 600px;
-        grid-gap: 5px;
+        grid-gap: 80px;
     }
     
     .card {
-        width: 600px;
+        width: 500px;
         display: grid;
         grid-template-rows: max-content 200px 2fr;
     }
