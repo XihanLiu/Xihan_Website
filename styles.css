@@ -4,8 +4,9 @@
     }
 
     #main {
-        display: flex;
-        padding-left: 25%;
+        display: fixed;
+        margin-left: 25%;
+        margin-right: 10%;
         background-color: white;
     }
 
@@ -18,7 +19,7 @@
         font-size: 150%;
         line-height: 200%;
         color: black;
-        width: 60%;
+        width: 100%;
     }
 
     /* Navigation bar. */
@@ -51,13 +52,14 @@
 
     .avatar {
         margin-bottom: 20px;
+
     }
     
-    
     .avatar-img {
-        width: 30%;
+        max-width: 30%;
         border-radius: 8px;
         padding-bottom: 2%;
+        margin-left: 10%;
     }
 
 
@@ -92,21 +94,14 @@
         
     }
 
-    .single-edu {
-        display: flex;
-        margin-bottom: 10%;    
+    .education_uni_title_time {
+        grid-template-columns: 1fr 20%;
     }
 
-    .edu-logos {
-        width: 28%;
-        height: auto;
-        margin-left: 10%;
-        padding-right: 20%;
-    }
-
-
-    .edu-line-1 {
-        justify-content: space-between;
+    .education_uni_title_time img{
+        object-fit: cover;
+        width: auto;
+        margin-right: 15%;
     }
 
     .pub-title {
@@ -134,6 +129,25 @@
     .linkedin-logo {
         width: 4%;
         height: auto;
+    }
+
+    .cards {
+        max-width: 100%;
+        display: flex;
+        grid-template-columns:600px 600px;
+        grid-gap: 5px;
+    }
+    
+    .card {
+        width: 600px;
+        display: grid;
+        grid-template-rows: max-content 200px 2fr;
+    }
+    
+    .card img {
+        object-fit: cover;
+        width: auto;
+        height: 100%;
     }
 
 </style>
